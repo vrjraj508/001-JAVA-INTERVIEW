@@ -1,0 +1,75 @@
+@echo off
+setlocal
+
+echo ==========================================
+echo          DSA MASTERY STRUCTURE
+echo ==========================================
+echo.
+
+mkdir "DSA MASTERY"
+
+cd "DSA MASTERY"
+
+echo Creating folders...
+
+mkdir "001 ALGORITHMIC THINKING & COMPLEXITY"
+mkdir "002 BIG O TIME & SPACE COMPLEXITY"
+mkdir "003 RECURSION FUNDAMENTALS"
+mkdir "004 MATHEMATICAL ALGORITHMS"
+mkdir "005 BIT MANIPULATION"
+
+mkdir "006 ARRAYS FUNDAMENTALS"
+mkdir "007 ARRAYS TWO POINTERS"
+mkdir "008 ARRAYS SLIDING WINDOW"
+mkdir "009 PREFIX SUM & DIFFERENCE ARRAY"
+mkdir "010 MATRIX & 2D ARRAYS"
+
+mkdir "011 STRINGS FUNDAMENTALS"
+mkdir "012 STRING MANIPULATION"
+mkdir "013 STRING HASHING & PATTERNS"
+
+mkdir "014 LINKED LIST"
+mkdir "015 STACK"
+mkdir "016 QUEUE & DEQUE"
+mkdir "017 HASHING & HASHMAP"
+mkdir "018 HEAP & PRIORITY QUEUE"
+
+mkdir "019 BINARY SEARCH"
+mkdir "020 SORTING ALGORITHMS"
+mkdir "021 INTERVALS & SWEEP LINE"
+
+mkdir "022 BINARY TREE"
+mkdir "023 BINARY SEARCH TREE"
+mkdir "024 TREE TRAVERSALS"
+mkdir "025 HEAP & TREE PROBLEMS"
+
+mkdir "026 TRIE"
+mkdir "027 DISJOINT SET UNION"
+mkdir "028 GRAPH FUNDAMENTALS"
+mkdir "029 BFS & DFS"
+mkdir "030 SHORTEST PATH ALGORITHMS"
+mkdir "031 MINIMUM SPANNING TREE"
+mkdir "032 TOPOLOGICAL SORT & DAG"
+
+mkdir "033 BACKTRACKING"
+mkdir "034 GREEDY ALGORITHMS"
+mkdir "035 DYNAMIC PROGRAMMING FUNDAMENTALS"
+mkdir "036 1D & 2D DYNAMIC PROGRAMMING"
+mkdir "037 KNAPSACK & SUBSEQUENCE DP"
+mkdir "038 INTERVAL & TREE DP"
+
+mkdir "039 ADVANCED ALGORITHM PATTERNS"
+mkdir "040 INTERVIEW PROBLEM SOLVING & MOCKS"
+
+echo.
+echo ==========================================
+echo       DSA STRUCTURE CREATED SUCCESSFULLY
+echo ==========================================
+echo.
+echo Location:
+cd
+echo.
+echo Total folders created: 40
+echo.
+
+pause

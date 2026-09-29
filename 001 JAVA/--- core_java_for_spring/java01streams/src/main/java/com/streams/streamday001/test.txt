@@ -1,0 +1,29 @@
+This is a basic stream of strings that i have. SO i can use this string.
+How to start making this I want to make it module by module start with a starter dependencies and add files and modules step by step learning new technologies every week and implement a new feature every week.
+
+# Design consideration
+001 start with a starter spring project with minimum dependences
+002 add all the classes Enums and skeleton of the project
+003 make all the repositories query methods and jpql queries
+004 make complete service and controller. once the basic backend is ready now we start implementing features
+005 now we start adding any dependencies and any files related to it this is the section i dont know much about like
+Redis caching Kafka migration git branching strategies
+006 also add scaling strategies to at least manage around 10000 users
+007 how can i manage this in my local system need complete config
+008 once the application has all of these features we will work on frontend part
+009 once frontend is complete we will move toward deployment and ci cd part with GitHub actions
+010 full configuration to deploy the application on aws /digital ocean
+
+
+Create a complete context to make this onevet app based on the above specification. include everything below:
+001 complete list of all the classes enums interfaces and all the files this project will have
+002 list of all modules with complete explanation of what each module does
+003 first rest application design module wise then divide it into microservices
+004 complete context on how to implement each module with technologies to use and context about what it is and it will work in application.
+now i want you to create a complete context to generate the modules things i want you to add in the modue :
+
+001 what we are going to make
+002 complete application file structure with files we are adding and dependencies we are adding all details
+003 complete hands on on the technology or tool we are using to implement that module dont assume anything explain them in detail with poniters
+then step by step hands on guide to do everything.
+004 do not give all the code at once first explain it completely then give me code step by step also give me complet hierearchy of where to add the files
