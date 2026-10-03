@@ -65,7 +65,7 @@ class Arr01FindRange{
                 85,
                 210,
                 65,
-                150
+                150,78,90,123
         };
 
         int minResponseTime = responseTimes[0];
@@ -73,10 +73,60 @@ class Arr01FindRange{
 
         for(int i=0;i<responseTimes.length;i++){
 
+            if(responseTimes[i] <minResponseTime){
+                minResponseTime = responseTimes[i];
+            }
+
+            if(responseTimes[i] >maxResponseTime){
+                maxResponseTime = responseTimes[i];
+            }
         }
+
+        int range = maxResponseTime-minResponseTime;
+
+        System.out.println("Minimum: "+minResponseTime);
+        System.out.println("Maximum: "+maxResponseTime);
+
+        System.out.println("Range: "+range);
 
     }
 }
+
+class Array01EmptyChecking{
+    public static void main(String[] args) {
+        int [] transactionRecords = {};
+
+        if(transactionRecords.length ==0){
+            System.out.println("No transactions records available");
+        }else{
+            System.out.println("Transaction records found :"+transactionRecords.length);
+        }
+    }
+}
+
+class  Array01CopyArray{
+
+public static void main(String[] args) {
+    int [] originalConfig = {
+            100,
+            200,
+            300,
+            400,
+            500,
+            600
+    };
+
+    int[] copiedConfig = new int[originalConfig.length];
+
+    for(int i=0;i<originalConfig.length;i++){
+        copiedConfig[i] = originalConfig[i];
+    }
+
+    System.out.println(Arrays.toString(originalConfig));
+    System.out.println(Arrays.toString(copiedConfig));
+}
+        }
+
 
 
 
