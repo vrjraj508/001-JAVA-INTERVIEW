@@ -112,8 +112,50 @@ class Array29RighRotate{
     }
 }
 
+class Array31RotateRightByK{
+    public static void main(String[] args) {
+        int [] arr = {1,2,3,4,5,6,7,8,9,10};
+        int k = 3;
+
+        k = k%arr.length;
+
+        for(int rotation = 0;rotation <k;rotation++){
+            int last = arr[arr.length-1];
+            for(int i=arr.length-1;i>0;i--){
+                arr[i] = arr[i-1];
+            }
+
+            arr[0] = last;
+        }
+
+        for(int val: arr){
+           System.out.print(val+" ");
+        }
+    }
+}
+
 class Array32MoveZerosToEnd{
-    
+
+    public static void main(String[] args) {
+        int [] arr = {0,1,0,3,12,0};
+
+        int position = 0;
+
+        for(int i=0;i<arr.length;i++){
+            if(arr[i] !=0){
+                arr[position] = arr[i];
+                position++;
+            }
+        }
+
+        while(position < arr.length){
+            arr[position] = 0;
+            position++;
+        }
+
+        System.out.println(Arrays.toString(arr));
+    }
+
 
 }
 
